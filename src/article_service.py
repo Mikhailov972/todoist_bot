@@ -9,5 +9,5 @@ def parse_title(url):
 
 
 def send_request_get_html_page(url):
-    req = request.Request(url, headers={'User-Agent': "Mozilla/5.0"})
+    req = request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64)'})
     return request.urlopen(req).read()
