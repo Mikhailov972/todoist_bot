@@ -6,3 +6,4 @@ requests~=2.22.0
 todoist~=0.0.1
 todoist-python~=8.1.3
 google-api-python-client~=2.10.0
+python-telegram-bot~=13.9
