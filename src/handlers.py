@@ -90,4 +90,4 @@ def send_msg_complete_task(message, update, context):
 
 
 def create_message(title, task_url):
-    return 'Task <a href=\'{}\'>{}</a> completed!'.format(task_url, title)
+    return 'Task <a href=\'{}\'>{}</a> added!'.format(task_url, title)
