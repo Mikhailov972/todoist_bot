@@ -77,7 +77,7 @@ def check_username(update, context):
                                                       'Hehe hehe... You have no power here...')
     username = update.message.from_user.username
     logger.info('User %s send message', username)
-    if username != 'Teemitze':
+    if username != 'Mikhailov972':
         context.bot.send_message(chat_id=update.effective_chat.id,
                                  text=msg_for_stranger,
                                  parse_mode=ParseMode.HTML)
