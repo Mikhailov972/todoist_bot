@@ -1,9 +1,6 @@
-telegram~=0.0.1
-PyYAML~=5.3.1
-bs4~=0.0.1
-beautifulsoup4~=4.8.2
-requests~=2.22.0
-todoist~=0.0.1
+PyYAML~=6.0
+beautifulsoup4~=4.10.0
+requests~=2.27.1
 todoist-python~=8.1.3
-google-api-python-client~=2.10.0
-python-telegram-bot~=13.9
+google-api-python-client~=2.36.0
+python-telegram-bot~=13.10
